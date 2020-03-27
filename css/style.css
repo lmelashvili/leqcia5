@@ -1,0 +1,93 @@
+/*base */
+.display-inline {
+	display: inline-block;
+}
+
+.clear {
+	clear: both
+}
+
+/*end base*/
+
+.container {
+	width: 1300px ;
+	height: 700px	;
+	border-color: #006837;
+	border: 4px;
+
+	padding :20px 20px;
+	margin:0 auto ;
+	background-color: #56836F;
+	
+}
+
+.navi {
+	float: right;
+	height: 64px;
+	width: 786px;
+	vertical-align: top;
+	padding-left: 75px;
+	padding-top: 50px;
+
+}
+.logo {
+	float: right;
+	padding-right: 60px;
+	padding-top: 50px;
+	vertical-align: top;
+}
+
+.list {
+	display: inline-block;
+	height: 64px;
+	color: #fff ;
+	font-size: 48px;
+	margin-right: 60px;
+}
+
+/*test*/
+
+.test	img {
+	float: right;
+}
+.test nav {
+	float: right;
+
+}
+
+/*block 2*/
+
+.block 2 {
+	width: 1160px;
+	height: 360px;
+}
+
+.brick1 {
+	width: 523px;
+	height: 356px;
+	background-color: #FCEE21 ;
+	float: right;
+	margin-right: 40px;
+}
+.brick2 {
+	width: 523px;
+	height: 356px;
+	background-color: #FCEE21 ;
+	float: left;
+	margin-left: 40px;
+
+}
+
+.block2 div	{
+	margin-top: 40px;
+}
+
+.brick1 img	{
+	float: left;
+	margin: 30px 30px;
+}
+
+.brick2 img	{
+	float: right;
+	margin: 30px 30px;
+}
