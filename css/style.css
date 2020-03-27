@@ -47,12 +47,17 @@
 
 /*test*/
 
-.test	img {
+/*.test	img {
 	float: right;
 }
 .test nav {
 	float: right;
 
+}*/
+.test::after {
+	content:"" ;
+	 clear : right;
+	display: block;
 }
 
 /*block 2*/
@@ -91,3 +96,8 @@
 	float: right;
 	margin: 30px 30px;
 }
+
+.paragraph {
+	padding-left: 10px;
+}
+
